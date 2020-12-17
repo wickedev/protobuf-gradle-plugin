@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.google.protobuf",
+    "module": "protobuf-gradle-plugin",
+    "version": "0.8.15-EXPERIMENTAL_ALLOW_PROTO3_OPTIONAL",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0",
+      "buildId": "hw72mr6r35fxnpcihiesgjzg2a"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "27.0.1-jre"
+          }
+        },
+        {
+          "group": "com.google.gradle",
+          "module": "osdetector-gradle-plugin",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "commons-lang",
+          "module": "commons-lang",
+          "version": {
+            "requires": "2.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "protobuf-gradle-plugin-0.8.15-EXPERIMENTAL_ALLOW_PROTO3_OPTIONAL.jar",
+          "url": "protobuf-gradle-plugin-0.8.15-EXPERIMENTAL_ALLOW_PROTO3_OPTIONAL.jar",
+          "size": 196446,
+          "sha512": "7e2171f748ac2d94607849bf0a9581187eb8728cd81e0a833bf1365e917040510b43e2c02c96d036328a7880581d70ac1c7b9aa50381721a8967158de24370fb",
+          "sha256": "e8500535b03f0634c974ecc5db89ef477f18416287bed715b192290a43ecf23f",
+          "sha1": "778b8ebb8dbc2641858711b8e43dc35f0354ecd5",
+          "md5": "e5b2f8edc2a58947b6ac39aed66250d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "27.0.1-jre"
+          }
+        },
+        {
+          "group": "com.google.gradle",
+          "module": "osdetector-gradle-plugin",
+          "version": {
+            "requires": "1.6.2"
+          }
+        },
+        {
+          "group": "commons-lang",
+          "module": "commons-lang",
+          "version": {
+            "requires": "2.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "protobuf-gradle-plugin-0.8.15-EXPERIMENTAL_ALLOW_PROTO3_OPTIONAL.jar",
+          "url": "protobuf-gradle-plugin-0.8.15-EXPERIMENTAL_ALLOW_PROTO3_OPTIONAL.jar",
+          "size": 196446,
+          "sha512": "7e2171f748ac2d94607849bf0a9581187eb8728cd81e0a833bf1365e917040510b43e2c02c96d036328a7880581d70ac1c7b9aa50381721a8967158de24370fb",
+          "sha256": "e8500535b03f0634c974ecc5db89ef477f18416287bed715b192290a43ecf23f",
+          "sha1": "778b8ebb8dbc2641858711b8e43dc35f0354ecd5",
+          "md5": "e5b2f8edc2a58947b6ac39aed66250d"
+        }
+      ]
+    }
+  ]
+}

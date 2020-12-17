@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.google.protobuf</groupId>
+  <artifactId>protobuf-gradle-plugin</artifactId>
+  <versioning>
+    <latest>0.8.15-EXPERIMENTAL_ALLOW_PROTO3_OPTIONAL</latest>
+    <release>0.8.15-EXPERIMENTAL_ALLOW_PROTO3_OPTIONAL</release>
+    <versions>
+      <version>0.8.15-EXPERIMENTAL_ALLOW_PROTO3_OPTIONAL</version>
+    </versions>
+    <lastUpdated>20201217052347</lastUpdated>
+  </versioning>
+</metadata>
